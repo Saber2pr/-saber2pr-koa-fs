@@ -10,6 +10,14 @@ npm install @saber2pr/koa-fs
 git clone https://github.com/Saber2pr/-saber2pr-koa-fs.git
 ```
 
+# API
+
+1. IndexJob
+
+2. FsJob
+
+3. HTMLJob
+
 ---
 
 ## start
