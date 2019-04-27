@@ -16,7 +16,7 @@ export const IndexJob: Job = async (ctx, next) => {
 
 export const FsJob: Job = async (ctx, next) => {
   const files = await FS.search()
-  const target = process.cwd() + ctx.request.url
+  const target = process.cwd() + decodeURIComponent(ctx.request.url)
   if (files.includes(target)) {
     const res = await FS.readFile(target)
     ctx.response.end(res)
