@@ -8,12 +8,12 @@ import { Koa } from '@saber2pr/koa'
 import { HTMLJob } from '../core/saber-koa-fs'
 
 Koa()
+  .use(HTMLJob)
   .use(async (ctx, next) => {
     if (ctx.request.url === '/aa') {
       ctx.response.end('aa')
     }
     await next()
   })
-  .use(HTMLJob)
 
   .listen(4003, () => console.log('http://localhost:4003'))

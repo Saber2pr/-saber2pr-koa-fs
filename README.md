@@ -18,6 +18,12 @@ git clone https://github.com/Saber2pr/-saber2pr-koa-fs.git
 
 3. HTMLJob
 
+```ts
+Koa()
+  .use(HTMLJob)
+  .listen(4003, () => console.log('http://localhost:4003'))
+```
+
 ---
 
 ## start
