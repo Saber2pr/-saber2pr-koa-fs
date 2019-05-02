@@ -1,6 +1,6 @@
 {
   "name": "@saber2pr/koa-fs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "> fs jobs for @saber2pr/koa.",
   "repository": {
     "type": "git",
@@ -22,6 +22,6 @@
   },
   "dependencies": {
     "@saber2pr/koa": "0.0.4",
-    "@saber2pr/node": "0.0.4"
+    "@saber2pr/node": "^0.1.2"
   }
 }
