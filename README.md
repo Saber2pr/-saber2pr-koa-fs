@@ -18,6 +18,18 @@ git clone https://github.com/Saber2pr/-saber2pr-koa-fs.git
 
 3. HTMLJob
 
+4. Redirect
+
+> 重定向
+
+```ts
+export const IndexJob: Job = Redirect({
+  '/': '/index.html',
+  '/index': '/index.html',
+  '/index.htm': '/index.html'
+})
+```
+
 ```ts
 Koa()
   .use(HTMLJob)
