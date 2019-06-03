@@ -39,10 +39,10 @@ export const FsJob: Job = async ctx => {
       const res = await FS.readFile(target)
       ctx.response.end(res)
     } catch (error) {
-      throw new Http.Exception(encodeURI(error.message), 404)
+      throw new Http.HttpException(encodeURI(error.message), 404)
     }
   } catch (error) {
-    Http.Exception.resolve(error, ctx.response)
+    Http.HttpException.resolve(error, ctx.response)
   }
 }
 /**
