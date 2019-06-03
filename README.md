@@ -7,7 +7,7 @@
 npm install @saber2pr/koa-fs
 
 # from github
-git clone https://github.com/Saber2pr/-saber2pr-koa-fs.git
+git clone https://github.com/Saber2pr/koa-fs.git
 ```
 
 # API

@@ -4,7 +4,7 @@
   "description": "> fs jobs for @saber2pr/koa.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Saber2pr/-saber2pr-koa-fs.git"
+    "url": "git+https://github.com/Saber2pr/koa-fs.git"
   },
   "author": "saber2pr",
   "license": "ISC",
